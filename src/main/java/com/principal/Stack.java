@@ -15,7 +15,7 @@ public class Stack<T> {
   public boolean isEmpty() {
     return (size == 0);
   }
-
+ 
   public void push(T elem) {
     elements.add(elem);
     size++;

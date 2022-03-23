@@ -26,7 +26,7 @@ public class StackTest {
 	public void testNotEmptyStack() {
 		stack.push(10);
 		assertFalse(stack.isEmpty());
-	}
+	} 
 
 	@Test
 	public void testSizeStack() {
