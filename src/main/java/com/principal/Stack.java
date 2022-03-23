@@ -27,5 +27,5 @@ public class Stack<T> {
     T elem = elements.remove(size-1);
     size--;
     return elem;
-  }
+  } 
 }
